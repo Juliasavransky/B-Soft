@@ -42,3 +42,9 @@
 .br--wrapper {
   margin: 2rem;
 }
+.br--rating__category {
+  display: flex;
+}
+.br--rating__star::before {
+  content: '';
+}
