@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  --Color-Blue: #16254f;
+  --Color-Gray: #4a4a4a;
+  --Color-White: #fff;
+
+  --Font-Size-Medium: 1rem;
+  --Font-Size-Large: 1.5rem;
+  --Font-Size-XLarge: 2rem;
+
+  --Font-Weight-Normal: 400;
+  --Font-Weight-Bold: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.divider-top {
+  border-top: 1px solid var(--Color-Gray);
+}
+.divider-bottom {
+  border-bottom: 1px solid var(--Color-Gray);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.br-container {
+  font-size: var(--Font-Size-Medium);
+  color: var(--Color-Blue);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.br--hading {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: var(--Font-Size-Large);
+  font-weight: var(--Font-Weight-Bold);
+  background-color: var(--Color-Blue);
+  color: var(--Color-White);
+  padding: 0.5rem 1rem;
 }
-
-.App-link {
-  color: #61dafb;
+.br--hading__btn {
+  font-size: var(--Font-Size-Medium);
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.br--wrapper {
+  margin: 2rem;
 }
