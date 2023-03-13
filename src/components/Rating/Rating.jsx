@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './RatingStyles.css';
+import '../rating/rating-styles.css';
 import FullStar from '../../img/star-full-darkBlue.svg';
 import EmptyStar from '../../img/star-empty-darkBlue.svg';
 import HalfStar from '../../img/star-half-darkBlue.svg';

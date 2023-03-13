@@ -1,5 +1,5 @@
 import React from 'react'
-import './HadingStyle.css';
+import '../hading/hading-style.css';
 
 const Hading = ({ text }) => {
     return (

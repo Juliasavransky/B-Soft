@@ -1,5 +1,5 @@
 import React from 'react'
-import '../FileUpload/FileUpload.css'
+import '../file-upload/file-upload.css';
 import Gallery from '../../img/bc-gallery.svg';
 
 const FileUpload = () => {

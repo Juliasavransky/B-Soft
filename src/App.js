@@ -1,9 +1,9 @@
 import './App.css';
-import Hading from './components/Hading/Hading';
-import Rating from './components/Rating/Rating';
-import Review from './components/Review/Review';
-import SubHeader from './components/SubHeader/SubHeader';
-import FileUpload from './components/FileUpload/FileUpload';
+import Hading from './components/hading/Hading';
+import Rating from './components/rating/Rating';
+import Review from './components/review/Review';
+import SubHeader from './components/sub-header/SubHeader';
+import FileUpload from './components/file-upload/FileUpload.jsx';
 import Confirmation from './components/confirmation/Confirmation.jsx';
 import Button from './components/button/Button';
 

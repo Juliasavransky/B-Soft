@@ -1,6 +1,6 @@
 import React from 'react'
-import './Review.css';
-import SubHeader from '../SubHeader/SubHeader';
+import '../review/review-style.css';
+import SubHeader from '../sub-header/SubHeader';
 
 const Review = () => {
     return (
