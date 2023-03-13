@@ -1,0 +1,5 @@
+.br--subheader {
+  font-weight: var(--Font-Weight-Bold);
+  font-size: var(--Font-Size-Medium);
+  margin-bottom: 1rem;
+}

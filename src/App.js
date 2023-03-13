@@ -1,7 +1,8 @@
 import './App.css';
 import Hading from './components/Hading/Hading';
 import Rating from './components/Rating/Rating';
-
+import Review from './components/Review/Review';
+import SubHeader from './components/SubHeader/SubHeader';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <div className="br--wrapper">
 
         <div className="br--rating">
-          <div className="br--rating__header">עד כמה היית מרוצה מהעסק?</div>
+          <SubHeader text={"עד כמה היית מרוצה מהעסק?"} />
           <Rating title={"שירות מקצועי "} />
           <Rating title={" מחיר ממוצע "} />
           <Rating title={"  מקצועיות הצוות "} />
@@ -23,12 +24,9 @@ function App() {
 
 
         <div className="divider-bottom"></div>
-        <div className="br--review">
-          <div className="br--review__title">
-            כמה מילים על החוויה שלך עם העסק
-          </div>
-          <input textarea="true" className="br--review__input" type="text" placeholder="יש להקליד כאן..." />
-        </div>
+
+        <Review />
+
         <div className="divider-bottom"></div>
 
         <div className="br--photo">
