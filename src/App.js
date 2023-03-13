@@ -1,5 +1,5 @@
 import './App.css';
-import Hading from './components/hading/Hading';
+import Headline from './components/headline/Headline';
 import Rating from './components/rating/Rating';
 import Review from './components/review/Review';
 import SubHeader from './components/sub-header/SubHeader';
@@ -12,7 +12,7 @@ function App() {
     <div className="br--background">
       <div className="br--wrapper">
 
-        <Hading text=" דירוג העסק" />
+        <Headline text=" דירוג העסק" />
         <div className="br-container">
 
           <div className="br--rating">

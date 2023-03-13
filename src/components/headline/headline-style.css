@@ -1,4 +1,4 @@
-.br--hading {
+.br--headline {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,12 +11,12 @@
   border-top-left-radius: 21px;
 }
 @media screen and (max-width: 767px) {
-  .br--hading {
+  .br--headline {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
 }
-.br--hading__btn {
+.br--headline__btn {
   font-size: var(--Font-Size-Medium);
   cursor: pointer;
 }

@@ -2,12 +2,12 @@ input[type='file'] {
   display: none;
 }
 .br--file-upload {
-  cursor: pointer;
   margin: 1rem 0;
 }
 
 .br--file-upload__label {
   display: flex;
+  cursor: pointer;
 }
 .br--file-upload__image {
   margin-left: 0.5rem;
