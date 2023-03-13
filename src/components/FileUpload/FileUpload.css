@@ -1,0 +1,17 @@
+input[type='file'] {
+  display: none;
+}
+.br--file-upload {
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+.br--file-upload__label {
+  display: flex;
+}
+.br--file-upload__image {
+  margin-left: 0.5rem;
+}
+.br--file-upload__image:hover {
+  filter: brightness(0.8) contrast(3.4) grayscale(0.04) saturate(1.8);
+}

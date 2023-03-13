@@ -3,6 +3,7 @@ import Hading from './components/Hading/Hading';
 import Rating from './components/Rating/Rating';
 import Review from './components/Review/Review';
 import SubHeader from './components/SubHeader/SubHeader';
+import FileUpload from './components/FileUpload/FileUpload';
 
 function App() {
   return (
@@ -29,10 +30,8 @@ function App() {
 
         <div className="divider-bottom"></div>
 
-        <div className="br--photo">
-          <input id="img" className="br--photo__input" type="file"></input>
-          <label htmlFor="img">הוספת תמונה</label>
-        </div>
+        <FileUpload />
+
         <div className="divider-bottom"></div>
 
         <div className="br--confirmation">
