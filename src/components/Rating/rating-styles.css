@@ -1,3 +1,7 @@
+input[type='radio'] {
+  display: none;
+}
+
 .br--rating {
   margin-bottom: 2rem;
   cursor: pointer;
@@ -5,24 +9,31 @@
 
 .br--rating__category {
   display: flex;
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
+  margin-top: 1rem;
   justify-content: flex-start;
 }
 
-input[type='radio'] {
-  display: none;
-}
 .br--rating__title {
-  width: 10%;
+  width: 35%;
 }
 .br--rating__stars {
   display: flex;
-  margin-right: 3rem;
-  width: 30%;
+  width: 65%;
+}
+@media screen and (max-width: 767px) {
+  .br--rating__stars {
+    flex-wrap: wrap;
+  }
 }
 .br--rating__star {
   position: relative;
   margin-right: 1rem;
+}
+@media screen and (max-width: 767px) {
+  .br--rating__star {
+    margin-right: 0.5rem;
+  }
 }
 .br--rating__label {
   cursor: pointer;

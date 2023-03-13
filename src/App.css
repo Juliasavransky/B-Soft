@@ -5,7 +5,7 @@
   --Color-Gray: #4a4a4a;
   --Color-White: #fff;
 
-  --Font-Size-Small: 0.9rem;
+  --Font-Size-Small: 0.8rem;
   --Font-Size-Medium: 1rem;
   --Font-Size-Large: 1.5rem;
   --Font-Size-XLarge: 2rem;
@@ -21,11 +21,38 @@
   border-bottom: 1px solid var(--Color-Gray);
 }
 
+.br--background {
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+  background-image: url('../src/img/bg-bsoft.png');
+}
+.br--wrapper {
+  width: 27rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+@media screen and (max-width: 767px) {
+  .br--wrapper {
+    width: 100%;
+    height: 100vh;
+  }
+}
 .br-container {
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
   font-size: var(--Font-Size-Medium);
   color: var(--Color-Blue);
+  background-color: var(--Color-White);
+  padding: 2rem 1.5rem;
 }
-
-.br--wrapper {
-  margin: 2rem;
+@media screen and (max-width: 767px) {
+  .br-container {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: var(--Font-Size-Small);
+  }
 }

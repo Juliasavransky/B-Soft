@@ -7,7 +7,7 @@ const Review = () => {
         <div className="br--review">
             <SubHeader text={"כמה מילים על החוויה שלך עם העסק"} />
             <textarea
-                rows={5}
+                rows={6}
                 className="br--review__input"
                 placeholder="יש להקליד כאן..."
             />

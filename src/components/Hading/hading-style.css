@@ -7,6 +7,14 @@
   background-color: var(--Color-Blue);
   color: var(--Color-White);
   padding: 0.5rem 1rem;
+  border-top-right-radius: 21px;
+  border-top-left-radius: 21px;
+}
+@media screen and (max-width: 767px) {
+  .br--hading {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
 }
 .br--hading__btn {
   font-size: var(--Font-Size-Medium);

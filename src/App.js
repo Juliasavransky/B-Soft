@@ -9,27 +9,30 @@ import Button from './components/button/Button';
 
 function App() {
   return (
-    <div className="br-container">
-
-      <Hading text=" דירוג העסק" />
-
+    <div className="br--background">
       <div className="br--wrapper">
-        <div className="br--rating">
-          <SubHeader text={"עד כמה היית מרוצה מהעסק?"} />
-          <Rating title={"שירות מקצועי "} />
-          <Rating title={" מחיר ממוצע "} />
-          <Rating title={"  מקצועיות הצוות "} />
-          <Rating title={" זמינות בעל העסק  "} />
-          <Rating title={" התרשמות כללית "} />
-        </div >
-        <div className="divider-bottom"></div>
-        <Review />
-        <div className="divider-bottom"></div>
-        <FileUpload />
-        <div className="divider-bottom"></div>
 
-        <Confirmation />
-        <Button text={"שיתוף תגובה"} />
+        <Hading text=" דירוג העסק" />
+        <div className="br-container">
+
+          <div className="br--rating">
+            <SubHeader text={"עד כמה היית מרוצה מהעסק?"} />
+            <Rating title={"שירות מקצועי "} />
+            <Rating title={" מחיר ממוצע "} />
+            <Rating title={"  מקצועיות הצוות "} />
+            <Rating title={" זמינות בעל העסק  "} />
+            <Rating title={" התרשמות כללית "} />
+          </div >
+          <div className="divider-bottom"></div>
+          <Review />
+          <div className="divider-bottom"></div>
+          <FileUpload />
+          <div className="divider-bottom"></div>
+
+          <Confirmation />
+          <Button text={"שיתוף תגובה"} />
+          <div className="br--delete">ביטול</div>
+        </div>
       </div>
     </div>
 
