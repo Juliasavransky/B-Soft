@@ -5,6 +5,7 @@
   --Color-Gray: #4a4a4a;
   --Color-White: #fff;
 
+  --Font-Size-Small: 0.9rem;
   --Font-Size-Medium: 1rem;
   --Font-Size-Large: 1.5rem;
   --Font-Size-XLarge: 2rem;
@@ -44,7 +45,23 @@
 }
 .br--rating__category {
   display: flex;
+  cursor: pointer;
 }
-.br--rating__star::before {
-  content: '';
+
+input[type='radio'] {
+  display: none;
+}
+.br--rating__star {
+  cursor: pointer;
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.br--rating__label {
+  cursor: pointer;
+  position: absolute;
+  font-size: var(--Font-Size-Small);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }

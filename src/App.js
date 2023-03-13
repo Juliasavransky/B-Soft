@@ -2,6 +2,7 @@ import './App.css';
 import Hading from './components/Hading';
 import Rating from './components/Rating';
 
+
 function App() {
   return (
     <div className="br-container">
@@ -11,7 +12,19 @@ function App() {
 
       <div className="br--wrapper">
 
-        <Rating />
+        <div className="br--rating">
+          <div className="br--rating__heder">עד כמה היית מרוצה מהעסק?</div>
+
+
+
+          <Rating title={"שירות מקצועי "} />
+          <Rating title={" מחיר ממוצע "} />
+          <Rating title={"  מקצועיות הצוות "} />
+          <Rating title={" זמינות בעל העסק  "} />
+          <Rating title={" התרשמות כללית "} />
+
+        </div >
+
 
         <div className="divider-bottom"></div>
         <div className="br--review">
