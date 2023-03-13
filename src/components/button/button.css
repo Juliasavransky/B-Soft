@@ -1,0 +1,11 @@
+.br--btn {
+  display: block;
+  margin: 0 auto;
+  border-radius: 21px;
+  background-color: var(--Color-Blue);
+  color: var(--Color-White);
+  width: 12.5rem;
+  height: 2.6rem;
+  font-weight: var(--Font-Weight-Bold);
+  cursor: pointer;
+}
