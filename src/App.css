@@ -26,42 +26,6 @@
   color: var(--Color-Blue);
 }
 
-.br--hading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: var(--Font-Size-Large);
-  font-weight: var(--Font-Weight-Bold);
-  background-color: var(--Color-Blue);
-  color: var(--Color-White);
-  padding: 0.5rem 1rem;
-}
-.br--hading__btn {
-  font-size: var(--Font-Size-Medium);
-  cursor: pointer;
-}
 .br--wrapper {
   margin: 2rem;
-}
-.br--rating__category {
-  display: flex;
-  cursor: pointer;
-}
-
-input[type='radio'] {
-  display: none;
-}
-.br--rating__star {
-  cursor: pointer;
-  position: relative;
-  width: 1.5rem;
-  height: 1.5rem;
-}
-.br--rating__label {
-  cursor: pointer;
-  position: absolute;
-  font-size: var(--Font-Size-Small);
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }

@@ -1,6 +1,7 @@
 import React from 'react'
+import './HadingStyle.css';
 
-function Hading({ text }) {
+const Hading = ({ text }) => {
     return (
         <div className="br--hading">
             <div className="br--hading__text"> {text}</div>
@@ -9,4 +10,4 @@ function Hading({ text }) {
     )
 }
 
-export default Hading
+export default Hading;
