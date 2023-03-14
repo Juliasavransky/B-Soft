@@ -11,10 +11,8 @@ function App() {
   return (
     <div className="br--background">
       <div className="br--wrapper">
-
         <Headline text=" דירוג העסק" />
         <div className="br-container">
-
           <div className="br--rating">
             <SubHeader text={"עד כמה היית מרוצה מהעסק?"} />
             <Rating title={"שירות מקצועי "} />
@@ -28,7 +26,6 @@ function App() {
           <div className="divider-bottom"></div>
           <FileUpload />
           <div className="divider-bottom"></div>
-
           <Confirmation />
           <Button
             text={"שיתוף תגובה"}

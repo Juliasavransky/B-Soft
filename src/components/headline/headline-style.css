@@ -1,11 +1,11 @@
 .br--headline {
+  color: var(--Color-White);
+  font-size: var(--Font-Size-Large);
+  font-weight: var(--Font-Weight-Bold);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: var(--Font-Size-Large);
-  font-weight: var(--Font-Weight-Bold);
   background-color: var(--Color-Blue);
-  color: var(--Color-White);
   padding: 0.5rem 1rem;
   border-top-right-radius: 21px;
   border-top-left-radius: 21px;
