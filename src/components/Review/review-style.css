@@ -5,9 +5,7 @@
   width: 100%;
   border: none;
   resize: none;
-  min-height: 7rem;
   overflow: hidden;
-  line-height: normal;
 }
 .br--review__input:focus {
   outline: none;

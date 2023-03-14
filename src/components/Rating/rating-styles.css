@@ -7,7 +7,7 @@ input[type='radio'] {
   cursor: pointer;
 }
 
-.br--rating__category {
+.br--rating__container {
   display: flex;
   margin-bottom: 1.6rem;
   margin-top: 1rem;
@@ -17,7 +17,7 @@ input[type='radio'] {
 .br--rating__title {
   width: 35%;
 }
-.br--rating__stars {
+.br--rating__items {
   display: flex;
   width: 65%;
 }

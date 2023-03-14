@@ -11,17 +11,22 @@ const Rating = ({ title }) => {
     return (
         <>
             {
-                <div className="br--rating__category">
+                <div className="br--rating__container">
                     <div className="br--rating__title">{title} </div>
-                    <div className="br--rating__stars">
+                    <div className="br--rating__items">
                         {[...Array(5)].map((star, index) => (
-                            <div key={index} className="br--rating__star" >
+                            <div
+                                key={index}
+                                className="br--rating__star" >
                                 <label>
                                     <input type="radio"
                                         name={`rating ${star}`}
                                         onClick={() => setRating(index + 1)}
                                     />
-                                    <span className="br--rating__label">{index + 1}</span>
+                                    <span
+                                        className="br--rating__label">
+                                        {index + 1}
+                                    </span>
                                     <img
                                         onMouseEnter={() => setHover(index + 1)}
                                         onMouseLeave={() => setHover(null)}

@@ -30,7 +30,9 @@ function App() {
           <div className="divider-bottom"></div>
 
           <Confirmation />
-          <Button text={"שיתוף תגובה"} />
+          <Button
+            text={"שיתוף תגובה"}
+          />
           <div className="br--delete">ביטול</div>
         </div>
       </div>

@@ -3,12 +3,19 @@
 }
 
 .br--background {
-  background-size: cover;
   position: relative;
-  height: 1000px;
+  height: 100vh;
+
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   z-index: -1;
   background-image: url('../src/img/bg-bsoft.png');
+}
+@media screen and (max-width: 767px) {
+  .br--background {
+    background-image: none;
+  }
 }
 .br--wrapper {
   width: 27rem;
@@ -31,6 +38,9 @@
   color: var(--Color-Blue);
   background-color: var(--Color-White);
   padding: 2rem 1.5rem;
+  overflow-y: auto;
+  /* margin: 0 auto; */
+  max-height: 80vh;
 }
 @media screen and (max-width: 767px) {
   .br-container {
